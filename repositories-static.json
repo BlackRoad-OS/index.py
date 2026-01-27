@@ -1,0 +1,63 @@
+{
+  "organization": "BlackRoad-OS",
+  "generated_at": "2026-01-27T00:00:00Z",
+  "total_count": 942,
+  "note": "This is a static snapshot. Run 'python index.py --update' with GitHub token to fetch latest.",
+  "categories": {
+    "infrastructure": [
+      {"name": "blackroad-os-core", "description": "Core system components", "html_url": "https://github.com/BlackRoad-OS/blackroad-os-core"},
+      {"name": "blackroad-os-window", "description": "BlackRoad OS in a Window", "html_url": "https://github.com/BlackRoad-OS/blackroad-os-window"},
+      {"name": "roadscheduler", "description": "Job scheduling & cron system", "html_url": "https://github.com/BlackRoad-OS/roadscheduler"},
+      {"name": "roadsocket", "description": "TCP/UDP socket wrapper with pooling", "html_url": "https://github.com/BlackRoad-OS/roadsocket"}
+    ],
+    "ai": [
+      {"name": "blackroad-multi-ai-system", "description": "Multi-AI collaboration platform", "html_url": "https://github.com/BlackRoad-OS/blackroad-multi-ai-system"},
+      {"name": "blackroad-ai-inference-accelerator", "description": "AI inference optimization", "html_url": "https://github.com/BlackRoad-OS/blackroad-ai-inference-accelerator"}
+    ],
+    "devops": [
+      {"name": "blackroad-os-jenkins", "description": "BlackRoad-enhanced Jenkins CI/CD", "html_url": "https://github.com/BlackRoad-OS/blackroad-os-jenkins"},
+      {"name": "blackroad-os-pitstop", "description": "DevOps automation", "html_url": "https://github.com/BlackRoad-OS/blackroad-os-pitstop"},
+      {"name": "blackroad-quality-control", "description": "Quality control system", "html_url": "https://github.com/BlackRoad-OS/blackroad-quality-control"}
+    ],
+    "development-tools": [
+      {"name": "editor-blackroadio", "description": "Code editor at editor.blackroad.io", "html_url": "https://github.com/BlackRoad-OS/editor-blackroadio"},
+      {"name": "blackroad-athena", "description": "Athena - Code Review Agent", "html_url": "https://github.com/BlackRoad-OS/blackroad-athena"},
+      {"name": "blackroad-debug-assistant", "description": "Debug assistant", "html_url": "https://github.com/BlackRoad-OS/blackroad-debug-assistant"},
+      {"name": "blackroad-branch-manager", "description": "Branch management", "html_url": "https://github.com/BlackRoad-OS/blackroad-branch-manager"}
+    ],
+    "web-portals": [
+      {"name": "developers-blackroad-io", "description": "Developer portal at developers.blackroad.io", "html_url": "https://github.com/BlackRoad-OS/developers-blackroad-io"},
+      {"name": "legal-blackroadio", "description": "Legal portal at legal.blackroad.io", "html_url": "https://github.com/BlackRoad-OS/legal-blackroadio"},
+      {"name": "store-blackroad-io", "description": "App store at store.blackroad.io", "html_url": "https://github.com/BlackRoad-OS/store-blackroad-io"},
+      {"name": "blackroad-status-page", "description": "Status page", "html_url": "https://github.com/BlackRoad-OS/blackroad-status-page"}
+    ],
+    "media": [
+      {"name": "blackroad-subtitle-generator", "description": "AI-powered subtitle generation", "html_url": "https://github.com/BlackRoad-OS/blackroad-subtitle-generator"},
+      {"name": "blackroad-watermark-tool", "description": "Watermarking tool", "html_url": "https://github.com/BlackRoad-OS/blackroad-watermark-tool"},
+      {"name": "blackroad-content-scheduler", "description": "Content scheduling", "html_url": "https://github.com/BlackRoad-OS/blackroad-content-scheduler"}
+    ],
+    "translation": [
+      {"name": "roadtranslate", "description": "Translation and localization service", "html_url": "https://github.com/BlackRoad-OS/roadtranslate"}
+    ],
+    "business": [
+      {"name": "blackroad-crm-lite", "description": "CRM system", "html_url": "https://github.com/BlackRoad-OS/blackroad-crm-lite"},
+      {"name": "blackroad-seo-optimizer", "description": "SEO optimizer", "html_url": "https://github.com/BlackRoad-OS/blackroad-seo-optimizer"},
+      {"name": "blackroad-knowledge-hub", "description": "Knowledge Hub - Learning Management System", "html_url": "https://github.com/BlackRoad-OS/blackroad-knowledge-hub"}
+    ],
+    "specialized": [
+      {"name": "blackroad-atmospheric-analyzer", "description": "Atmospheric analyzer", "html_url": "https://github.com/BlackRoad-OS/blackroad-atmospheric-analyzer"},
+      {"name": "blackroad-robot-simulator", "description": "Robot simulator", "html_url": "https://github.com/BlackRoad-OS/blackroad-robot-simulator"},
+      {"name": "blackroadquantum-com", "description": "BlackRoad Quantum Computing", "html_url": "https://github.com/BlackRoad-OS/blackroadquantum-com"},
+      {"name": "blackboxprogramming-io", "description": "BlackBox Programming", "html_url": "https://github.com/BlackRoad-OS/blackboxprogramming-io"}
+    ],
+    "communication": [
+      {"name": "blackroad-os-synapse", "description": "BlackRoad-enhanced Matrix Synapse server", "html_url": "https://github.com/BlackRoad-OS/blackroad-os-synapse"}
+    ],
+    "blockchain": [
+      {"name": "blackroad-multi-chain-bridge", "description": "Multi-chain bridge", "html_url": "https://github.com/BlackRoad-OS/blackroad-multi-chain-bridge"}
+    ],
+    "monitoring": [
+      {"name": "blackroad-pulse-check", "description": "Health monitoring and pulse check", "html_url": "https://github.com/BlackRoad-OS/blackroad-pulse-check"}
+    ]
+  }
+}

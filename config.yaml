@@ -1,0 +1,148 @@
+---
+# BlackRoad OS Repository Index Configuration
+
+organization: BlackRoad-OS
+
+# Cache settings
+cache:
+  enabled: true
+  ttl: 3600  # seconds
+  file: .repo_cache.json
+
+# Output formats
+output_formats:
+  - json
+  - html
+  - markdown
+
+# Repository categories
+categories:
+  infrastructure:
+    name: "Core Infrastructure"
+    icon: "🏗️"
+    keywords:
+      - core
+      - infrastructure
+      - scheduler
+      - socket
+      
+  ai:
+    name: "AI & Machine Learning"
+    icon: "🤖"
+    keywords:
+      - ai
+      - ml
+      - inference
+      - machine-learning
+      
+  devops:
+    name: "DevOps & CI/CD"
+    icon: "🚀"
+    keywords:
+      - cicd
+      - jenkins
+      - devops
+      - quality
+      
+  development-tools:
+    name: "Development Tools"
+    icon: "🔧"
+    keywords:
+      - editor
+      - debug
+      - branch
+      - athena
+      - review
+      
+  web-portals:
+    name: "Web & Portal Services"
+    icon: "🌐"
+    keywords:
+      - portal
+      - legal
+      - store
+      - status
+      
+  media:
+    name: "Media & Content"
+    icon: "🎥"
+    keywords:
+      - subtitle
+      - watermark
+      - content
+      - media
+      
+  translation:
+    name: "Translation & Localization"
+    icon: "🌐"
+    keywords:
+      - translate
+      - i18n
+      - localization
+      
+  business:
+    name: "Business & Analytics"
+    icon: "📊"
+    keywords:
+      - crm
+      - seo
+      - knowledge
+      - business
+      
+  specialized:
+    name: "Specialized Tools"
+    icon: "🔬"
+    keywords:
+      - quantum
+      - robot
+      - atmospheric
+      - simulator
+      
+  communication:
+    name: "Communication"
+    icon: "💬"
+    keywords:
+      - synapse
+      - matrix
+      - chat
+      - messaging
+      
+  blockchain:
+    name: "Blockchain"
+    icon: "⛓️"
+    keywords:
+      - blockchain
+      - chain
+      - bridge
+      
+  monitoring:
+    name: "Monitoring & Health"
+    icon: "🔍"
+    keywords:
+      - pulse
+      - health
+      - monitor
+
+# API endpoints
+api_endpoints:
+  github: https://api.github.com
+  docs: https://docs.blackroad.io
+  api: https://api.blackroad.io
+  support: https://support.blackroad.io
+  website: https://blackroad.io
+
+# GitHub settings
+github:
+  per_page: 100
+  timeout: 30
+
+# Export settings
+export:
+  json:
+    indent: 2
+    ensure_ascii: false
+  markdown:
+    include_toc: true
+  html:
+    theme: dark
+    responsive: true
